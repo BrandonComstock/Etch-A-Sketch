@@ -1,16 +1,21 @@
 .grid {
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
-    max-width: 400px;
-    max-height: auto;
+    width: 960px;
+    height: 960px;
+    /* justify-content: space-around; */
+    /* align-items: flex-start; */
 }
 
 .grid-item {
-    width: 20px;
-    height: 20px;
-    flex-grow: 1; 
+    max-width: 20px;
+    max-height: 20px;
+    /* flex-grow: 1;  */
     min-width: 6%;
     min-width: 6%;
-    max-width: 20px; 
-    max-height: auto;
+    /* max-width: 20px; 
+    max-height: auto; */
+    flex: 1
 }
