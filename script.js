@@ -4,7 +4,7 @@ const btn = document.createElement("button");
 
 btn.textContent = "Change grid size";
 
-body.append(btn);
+body.appendChild(btn);
 
 function sketch(size) {
     // Clear existing grid

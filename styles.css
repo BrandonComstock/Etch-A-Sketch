@@ -4,8 +4,20 @@
     width: 960px;
     height: 960px;
     border: 1px solid black;
+    background-color: beige;
 }
 
 .grid-item {
     box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+button {
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
 }
