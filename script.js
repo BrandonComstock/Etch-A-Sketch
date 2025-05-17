@@ -14,7 +14,7 @@ function sketch(gridItems) {
         for (let j = 0; j < gridItems; j++) {
             const square = document.createElement("div");
             square.classList = "grid-item";
-            square.textContent = "test";
+            // square.textContent = j.toString();
             square.addEventListener("mouseover", (e) => {
                 e.target.style.background = "black"
             });

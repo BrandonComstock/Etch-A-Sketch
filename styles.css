@@ -10,12 +10,14 @@
 }
 
 .grid-item {
-    max-width: 20px;
-    max-height: 20px;
+    /* max-width: 20px; */
+    /* max-height: 20px; */
     /* flex-grow: 1;  */
     min-width: 6%;
-    min-width: 6%;
-    /* max-width: 20px; 
-    max-height: auto; */
-    flex: 1
+    min-height: 0%;
+    /* max-width: 20px;  */
+    /* max-height: auto; */
+    margin: 0;
+    flex: 1 0 auto;
+    height: auto'
 }
