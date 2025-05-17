@@ -14,7 +14,9 @@ function sketch(gridItems) {
         for (let j = 0; j < gridItems; j++) {
             const square = document.createElement("div");
             square.classList = "grid-item";
-            // square.textContent = j.toString();
+
+            square.style.minWidth = Math.round((960 /  gridItems) / 10) + "%";
+
             square.addEventListener("mouseover", (e) => {
                 e.target.style.background = "black"
             });
@@ -29,6 +31,6 @@ function sketch(gridItems) {
     })
 }
 
-sketch(16);
+sketch(40);
 
 
