@@ -8,8 +8,9 @@
 }
 
 .grid-item {
-    /* min-width: 6%; */
-    margin: 0;
-    flex: 1 0 auto;
-    height: auto;
+    /* height: auto;S */
+    /* min-height: 6%; */
+    /* min-width: fit-content; */
+    min-height: fit-content;
+    flex: 0 1 auto;
 }
