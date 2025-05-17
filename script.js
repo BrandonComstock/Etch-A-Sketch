@@ -23,9 +23,11 @@ function sketch(size) {
 
             square.style.width = (100 / value) + "%";
 
+            let randomColor = Math.floor(Math.random()*16777215).toString(16)
+
             // Turns square black when mouse hovers over
             square.addEventListener("mouseover", (e) => {
-                e.target.style.background = "black"
+                e.target.style.background = `#${randomColor}`;
             });
     
             container.append(square);
