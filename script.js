@@ -1,8 +1,10 @@
 const container = document.querySelector("#container");
+const body = document.querySelector("body")
 const btn = document.createElement("button");
 
+btn.textContent = "Change grid size";
 
-// container.append(btn);
+body.append(btn);
 
 function sketch(size) {
     // Clear existing grid
@@ -27,16 +29,16 @@ function sketch(size) {
             });
     
             container.append(square);
+        }
     }
 }
 
-    // Button on top of screen that can change grid size
-    btn.addEventListener("click", (e) => {
-        let input = prompt("Change grid size");
-        sketch(input);
-    })
-}
+ // Button on top of screen that can change grid size
+ btn.addEventListener("click", (e) => {
+    let input = prompt("Change grid size");
+    sketch(input);
+})
 
-sketch(63);
+sketch(16);
 
 
